@@ -1,0 +1,13 @@
+{
+  "enabled": [
+    "mollie"
+  ],
+
+  "test": [
+    "adyen"
+  ],
+
+  "disabled": [
+    "docdata"
+  ]
+}

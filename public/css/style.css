@@ -1,0 +1,13 @@
+.container {
+  max-width: 550px;
+}
+
+header h1 {
+  font-weight: 300;
+}
+
+header h2 {
+  color: #999;
+  font-size: 16px;
+  font-weight: normal;
+}

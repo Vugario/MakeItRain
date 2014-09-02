@@ -1,0 +1,11 @@
+{
+  "options": {
+    "api_key": {
+      "required": true,
+      "title": "Your API key",
+      "description": "Enter the API key as provided by Mollie.nl"
+    }
+  },
+
+  "services": ["ideal", "mastercard", "visa", "americanexpress", "maestro", "mistercash"]
+}

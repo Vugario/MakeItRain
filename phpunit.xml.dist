@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="SEOshop Test Suite">
+            <directory>tests/SEOshop</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/Silex</directory>
+            <directory suffix=".php">src/SEOshop</directory>
+        </whitelist>
+    </filter>
+</phpunit>

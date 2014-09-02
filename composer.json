@@ -1,0 +1,29 @@
+{
+    "name": "SEOshop/Payment",
+    "description": "Interfaces with payment external gateways",
+    "keywords": [
+        "SEOshop",
+        "Payment"
+    ],
+    "homepage": "https://github.com/Vugario/Payment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Menno Wolvers",
+            "email": "112menno@gmail.com",
+            "homepage": "http://mennowolvers.nl/",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "silex/silex": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SEOshop": ["src", "tests"],
+            "Silex\\Provider": "src"
+        },
+
+        "classmap": ["dev/controllers"]
+    }
+}
