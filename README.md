@@ -1,6 +1,6 @@
 MakeItRain
 =====
-MakeItRain unifies a variety of Payment Gateways for use in the SEOshop platform. It provides a generic interface to easily connect new gateways.
+MakeItRain unifies a variety of Payment Gateways for use in a platform. It provides a generic interface to easily connect new gateways.
 
 ---
 
